@@ -1,0 +1,77 @@
+body {
+    color: white;
+    text-align: center;
+    background-color: gray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url("https://t4.ftcdn.net/jpg/02/32/92/55/360_F_232925587_st4gM8b3TJHtjjddCIUNyVyFJmZqMmn4.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+    line-height: 1.8;
+}
+
+.logo {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.input_container input {
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: large;
+    text-align: center;
+    outline: none;
+    
+}
+
+.button {
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 140px;
+    padding: 10px 15px;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+#submit{
+    margin-left:15px;
+    margin-top:12px
+}
+#message{
+    display: none;
+    font-size: 1.5em;
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+}
+#lives-text{
+    font-size: 2em;
+    font-weight: 500;
+    color: white;
+}
